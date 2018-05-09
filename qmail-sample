@@ -1,0 +1,9 @@
+if (  
+      /^Delivered-To:.e-mail-hash1@mycompany\.com/:h || 
+      /^Delivered-To:.e-mail-hash2@mycompany\.com/:h || 
+      /^Delivered-To:.e-mail-hash3@mycompany\.com/:h || 
+      /^Delivered-To:.e-mail-hash4@mycompany\.com/:h || 
+      ...)
+{
+  other@mailaccount.com
+}
